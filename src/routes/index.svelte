@@ -9,36 +9,16 @@
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
-
-<section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<div class="card w-96 bg-base-100 shadow-xl">
-		<figure><img src="./svelte-welcome.png" alt="Shoes" /></figure>
-		<div class="card-body">
-		  <h2 class="card-title">Shoes!</h2>
-		  <p>If a dog chews shoes whose shoes does he choose?</p>
-		  <div class="card-actions justify-end">
-			<button class="btn btn-primary">Buy Now</button>
-		  </div>
-		</div>
+<div class="hero min-h-screen bg-primary rounded-lg">
+	<div class="hero-content text-center">
+	  <div class="max-w-md">
+		<h1 class="text-5xl font-bold">Hello there</h1>
+		<p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+		<button class="btn btn-primary">Get Started</button>
 	  </div>
-
-	<Counter />
-</section>
+	</div>
+  </div>
+	
 
 <style>
 	section {

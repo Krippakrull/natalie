@@ -3,14 +3,14 @@
 	import '../app.css';
 </script>
 
-<header />
+<Header />
 
 <main>
 	<slot />
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Temporär text, ska det vara en till kontaktlänk eller vad här?</p>
 </footer>
 
 <style>

@@ -7,7 +7,10 @@ const config = {
 
 	plugins: [
 		require('daisyui'),
-	]
+	],
+	daisyui: {
+		themes: ["fantasy"],
+	}
 };
 
 module.exports = config;

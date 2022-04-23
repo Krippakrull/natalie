@@ -4,24 +4,28 @@
 </script>
 
 <header>
-	<div class="corner">
+	<!-- <div class="corner">
 		<a href="https://kit.svelte.dev">
 			<img src={logo} alt="SvelteKit" />
 		</a>
-	</div>
+	</div> -->
 
-	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
+	<nav class="w-screen navbar bg-primary text-neutral-content justify-center">
+			<a class="btn btn-ghost btn-sm normal-case text-sm sm:text-xl" sveltekit:prefetch href="/">Hem</a>
+			<a class="btn btn-ghost btn-sm normal-case text-sm sm:text-xl" sveltekit:prefetch href="/about">About</a>
+			<a class="btn btn-ghost btn-sm normal-case text-sm sm:text-xl" sveltekit:prefetch href="/todos">Todos</a>
+			<a class="btn btn-ghost btn-sm normal-case text-sm sm:text-xl" sveltekit:prefetch href="/contact">Kontakt</a>
+		<!-- <svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
 			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
+			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/">About</a></li>
 			<li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">Todos</a></li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
+		</svg> -->
 	</nav>
 
 	<div class="corner">
@@ -29,7 +33,7 @@
 	</div>
 </header>
 
-<style>
+<!-- <style>
 	header {
 		display: flex;
 		justify-content: space-between;
@@ -117,4 +121,4 @@
 	a:hover {
 		color: var(--accent-color);
 	}
-</style>
+</style> -->
